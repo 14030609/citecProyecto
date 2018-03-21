@@ -1,0 +1,17 @@
+conferencias.list:
+  title: CONFERENCIAS
+  description: 'CONFERENCIAS List'
+  parent: main
+  route_name: conferenciasList
+<<<<<<< HEAD
+  menu_name: main
+=======
+  menu_name: main 
+
+#faq.admin:
+#  title: FAQ
+#  description: 'FAQ admin'
+#  parent: account
+#  route_name: faqList
+#  menu_name: account 
+>>>>>>> 25bd42bde43ad346072499d2a3c9226ec0f60794

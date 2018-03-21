@@ -1,0 +1,77 @@
+conferenciasList:
+  path: /conferencias/list
+  defaults:
+      _controller: Drupal\conferencias\Controller\ConferenciasController::lista
+  requirements:
+      _permission: 'conferencias read'
+      #_user_is_logged_in: 'FALSE'
+
+<<<<<<< HEAD
+=======
+conferenciasList2:
+  path: /conferencias/list2
+  defaults:
+      _controller: Drupal\conferencias\Controller\ConferenciasController::lista2
+  requirements:
+      _permission: 'conferencias read'
+      #_user_is_logged_in: 'FALSE'
+
+>>>>>>> 25bd42bde43ad346072499d2a3c9226ec0f60794
+conferenciasAdd:
+  path: /conferencias/add
+  defaults:
+    _form: '\Drupal\conferencias\Form\ConferenciasAddForm'
+<<<<<<< HEAD
+    _title: 'Crear conferencia'
+=======
+    _title: 'Crear pregunta'
+>>>>>>> 25bd42bde43ad346072499d2a3c9226ec0f60794
+  requirements:
+    _permission: 'conferencias add'
+
+conferenciasAdd2:
+  path: /conferencias/add2
+  defaults:
+    _controller: Drupal\conferencias\Controller\ConferenciasController::add
+<<<<<<< HEAD
+    _title: 'Crear conferencias'
+  requirements:
+    _permission: 'conferemcias add'
+=======
+    _title: 'Crear Conferencias'
+  requirements:
+    _permission: 'conferencias add'
+
+#conferenciasSave:
+#  path: /conferencias/save
+#  defaults:
+#    _controller: Drupal\conferencias\Controller\conferenciasController::save
+#  requirements:
+#    _permission: 'conferencias add'
+
+>>>>>>> 25bd42bde43ad346072499d2a3c9226ec0f60794
+
+conferenciasDelete:
+  path: '/conferencias/delete/{id}'
+  defaults:
+    _form: 'Drupal\conferencias\Form\ConferenciasDeleteForm'
+<<<<<<< HEAD
+    _title: 'Eliminar conferencia'
+  requirements:
+=======
+    _title: 'Eliminar Conferencias'
+  requirements: 
+>>>>>>> 25bd42bde43ad346072499d2a3c9226ec0f60794
+    _permission: 'conferencias delete'
+
+conferenciasUpdate:
+  path: '/conferencias/update/{id}'
+  defaults:
+    _form: 'Drupal\conferencias\Form\ConferenciasUpdateForm'
+<<<<<<< HEAD
+    _title: 'Modificar conferencia'
+=======
+    _title: 'Modificar Conferencias'
+>>>>>>> 25bd42bde43ad346072499d2a3c9226ec0f60794
+  requirements:
+    _permission: 'conferencias update'
